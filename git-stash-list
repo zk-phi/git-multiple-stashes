@@ -67,7 +67,8 @@
          (when (file-exists-p ref)
            (rename-file ref "./.git/refs/stash")))
        (setq inactive-stashes (cons active-stash (remove stash-name inactive-stashes)))
-       (setq active-stash stash-name))
+       (setq active-stash stash-name)
+       (message "Stash list switched."))
       (t
        (error "Command %s not found." command)))
 
