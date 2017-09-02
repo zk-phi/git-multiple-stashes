@@ -2,6 +2,10 @@
 
 Make git have multiple stash lists!
 
+## Demo
+
+![Demo](screencast.gif)
+
 ## Dependencies
 
 Emacs (>=24)
