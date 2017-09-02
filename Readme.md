@@ -15,7 +15,7 @@ Emacs (>=24)
 Make git-stash-list visible from PATH
 
 ```
-cp git-stash-list /usr/local/bin
+cp git-stash-list.el /usr/local/bin/git-stash-list
 ```
 
 and (optionally) add an alias to `~/.gitconfig`.
@@ -34,4 +34,3 @@ git-stash-list have following subcommands:
 * `git stash-list delete <name>` ... Delete specified stash-list.
 * `git stash-list show <name>` ... Show list of stashes in specified stash-list.
 * `git stash-list switch <name>` ... Switch to specified stash-list.
-
